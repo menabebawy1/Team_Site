@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.bigdiv {
+  max-width: 100%;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -40,4 +44,40 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 6px solid #bf8040;
+}
+
+.textcontainer {
+  font-size: 1.5rem;
+  text-align: center;
+  border-left: 6px solid #bf8040;
+  background-color: lightgrey;
+  margin: 30px;
+  padding: 30px;
+}
+
+.formcontainer {
+  font-size: 1rem;
+  border-left: 6px solid #bf8040;
+  background-color: lightgrey;
+  margin: 30px;
+  padding: 30px;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.submitbutton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  height:10vh;
+  width: 10vw;
+  font-size: 1.5rem;
+  background-color: #e9a766
 }
