@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -24,4 +30,14 @@
 .topnav a.active {
   background-color: grey;
   color: white;
+}
+
+.imgcontainer {
+  padding-top: 1vw;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
