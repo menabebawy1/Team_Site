@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 3rem;
+}
+
+#donate-li {
+  color: rgba(255, 0, 0, 0.787);
+}
+
+nav {
+  background-color: dimgrey;
+}
+
+.nav-links {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 2rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  margin: 30px;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+figcaption {
+  font-size: 1.5rem;
+  text-align: center;
+}
